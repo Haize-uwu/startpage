@@ -1,7 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
     // Load the JSON file
-    fetch("https://haize-uwu.github.io/startpage/links.json")
+    fetch("/links.json")
 
         .then(response => response.json())
         .then(data => {
