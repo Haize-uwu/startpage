@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--    Page by haize
+        Modify as needed -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="general.css"/>
+        <!-- THEME -->
+        <link rel="icon" type="image/vnd.microsoft.icon" href="themes/favicon.png" sizes="16x16 32x32 48x48 64x64"/>
+        <link rel="stylesheet" style="text/css" href="themes/colors.css"/>  
+        <script type="text/javascript">var mascotPath = "themes/images/mascots/";</script>
+        <script type="text/javascript" src="themes/mascots.js"></script>
+
+        <!-- <script type="text/javascript" src="js/mascots-control.js"></script> -->
+    </head>
+<body>
+        <main> <!-- Random mascot image will be set as background-image by javascript -->
+            <header>
+                <h1>Welcome to the Internet, <span class="name-highlight">Haize</span></h1>
+                
+            </header>
+            <section class="searchContainer">
+                <form class="searchForm" method="get" action="https://duckduckgo.com/search">
+                    <input class="searchBar search_google" type="text" name="q" placeholder="DuckDuckGo" autofocus="autofocus" search_/>
+
+                </form>
+                <form class="searchForm" method="get" action="https://youtube.com/results">
+                    <input class="searchBar search_youtube" type="text" name="search_query" placeholder="Youtube" search_/>
+                </form>
+                <form class="searchForm" method="get" action="https://en.wikipedia.org/w/index.php">
+                    <input class="searchBar search_wikipedia" type="text" name="search" placeholder="Wikipedia (en)" search_/>
+                </form>
+            </section>
+            <nav>
+                <ul class="buttonList">
+                    <li class="button button_green"><a href="http://github.com/haize-uwu">Github</a></li>
+                    <li class="button button_grey"><a href="#">Link2</a></li>
+                    <li class="button button_grey buttonArrow"><a href="#">Link3</a>
+                        <ul>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="columnList" id="columnList">
+                <script src="js/loadLinks.js" defer></script>    
+                </ul>
+            </nav>
+        </main>
+    </body>
+
+</html>

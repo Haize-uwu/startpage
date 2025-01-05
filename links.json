@@ -1,0 +1,12 @@
+
+{
+  "Math": [
+    { "text": "Roadmap", "link": "https://github.com/Haize-uwu/mathematics-roadmap" },
+    { "text": "OSSU/Math", "link": "https://github.com/ossu/math" }
+  ],
+  "Programming": [
+    { "text": "CSES (pdf)", "link": "https://duoblogger.github.io/assets/pdf/memonvyftw/guide-t-cp.pdf" },
+    { "text": "CSES Problem Set", "link": "https://cses.fi/problemset/" },
+    { "text": "AtCoder", "link": "https://atcoder.jp/" }
+  ]
+}
