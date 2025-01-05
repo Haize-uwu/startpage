@@ -1,7 +1,8 @@
 
 document.addEventListener("DOMContentLoaded", () => {
     // Load the JSON file
-    fetch("../links.json")
+    fetch("/startpage/links.json")
+
         .then(response => response.json())
         .then(data => {
             const columnList = document.getElementById("columnList");
