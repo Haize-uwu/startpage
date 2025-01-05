@@ -2,9 +2,9 @@
 // List of mascots
 var mascotList = [
     
-"/startpage/themes/images/mascots/mascot1.png"
-"/startpage/themes/images/mascots/mascot2.png"
-"/startpage/themes/images/mascots/mascot3.png"
+"./images/mascots/mascot1.png"
+"./images/mascots/mascot2.png"
+"./images/mascots/mascot3.png"
 ];
 
 // Path to mascot images
