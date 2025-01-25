@@ -1,3 +1,3 @@
 # TODO
-- [ ] mascot loading broken
+- [x] mascot loading broken
 - [ ] custom dashboard for activity
