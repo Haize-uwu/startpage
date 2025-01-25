@@ -2,9 +2,9 @@
 // List of mascots
 var mascotList = [
     
-"./images/mascots/mascot1.png"
-"./images/mascots/mascot2.png"
-"./images/mascots/mascot3.png"
+    "mascot1.jpg",
+    "mascot2.jpg"
+
 ];
 
 // Path to mascot images
@@ -28,9 +28,15 @@ function controlMascot(mascot, mascotMinWidth) {
 
 function setMascot(mascot) {
     $('main').addClass("mascot");
-    $('main').css("background-image", "url(" + mascot + ")");
+    $('main').css({
+        "background-image": "url(" + mascot + ")",
+        "background-position": "left top",
+        "background-repeat": "no-repeat",
+        "padding-left": "350px"
+    });
     $('main').removeClass("plain");
 }
+
 
 function removeMascot() {
     $('main').removeClass("mascot");

@@ -33,6 +33,7 @@ main {
     background-repeat: no-repeat;
     border-width: 1px;
     border-style: solid;
+    padding-left: 250px;
     margin: 10vh 0 0 0;
 }
 
